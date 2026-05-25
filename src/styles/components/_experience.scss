@@ -1,0 +1,103 @@
+@use "@/styles/base/variables" as *;
+
+.experience {
+    padding: 180px 0;
+    position : relative;
+}
+
+.timeline{
+    position :relative;
+    margin-top: 80px;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 2px;
+        height: 100%;
+        background:linear-gradient(to bottom,
+         transparent,
+         $primary,
+         transparent);
+        }
+
+    .timeline__item{
+        position: relative;
+        margin-bottom: 70px;
+        padding-left: 120px;
+
+        &:last-child{
+    margin-bottom: 0;
+        }
+    } 
+    .timeline__number{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        background: $primary;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $primary;
+        font-size: 1.4rem;
+        background: #ffffff4d;
+        backdrop-filter: blur(10px);
+        border: 2px solid #ffffff4d; 
+        box-shadow: 0 0 30px #ffffff33;
+    }
+
+    .timeline__content{
+        padding:40px;
+        border-radius:30px;
+        background: #ffffff4d;
+        backdrop-filter: blur(10px);
+        border: 2px solid #ffffff4d; 
+        box-shadow: 0 0 30px #ffffff33;
+        backdrop-filter: blur(10px);
+        transition: 0.4s;
+        &:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 0 40px #ffffff66;
+        }
+        h3{
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        p{
+            color:$textGray;
+            line-height: 1.8;
+            max-width: 700px;
+        }
+    }
+
+    @media(max-width:768px) {
+        .timeline{
+            &::before{
+                left: 25px;
+            }
+            .timeline__item{
+                padding-left: 80px;
+            }
+            .timeline__number{
+                width: 50px;
+                height: 50px;
+                font-size: 1rem;
+              
+            }
+             .timeline__content{
+                padding:20px;
+                h3{
+                    font-size: 1.5rem;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 0.9rem;
+                    max-width: 100%;
+                }
+             }
+        }
+    }
+}
