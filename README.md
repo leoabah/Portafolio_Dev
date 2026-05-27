@@ -106,21 +106,6 @@ npm run deploy
 
 ---
 
-## 📸 Preview
-
-
-
-![Image](<img width="1425" height="690" alt="Captura de pantalla 2026-05-27 a la(s) 7 52 08 p  m" src="https://github.com/user-attachments/assets/9bc46d84-c3cb-4275-8ad5-90f29fc6a31a" />
-)
-
-![Image](<img width="1344" height="699" alt="Captura de pantalla 2026-05-27 a la(s) 7 51 49 p  m" src="https://github.com/user-attachments/assets/808161aa-b73b-4c07-8173-e315dc76be73" />
-)
-
-![Image](<img width="1440" height="779" alt="Captura de pantalla 2026-05-27 a la(s) 7 51 25 p  m" src="https://github.com/user-attachments/assets/9b8fdf82-1e23-4b29-ada2-6122523544ac" />)
-
-
----
-
 ## 👨‍💻 Autor
 
 ### [Leo Abah GitHub](https://github.com/leoabah?utm_source=chatgpt.com)
