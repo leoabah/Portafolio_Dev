@@ -26,7 +26,7 @@ function removeCommentsFromJS(src) {
   let inSingle = false, inDouble = false, inTemplate = false;
   let inLineComment = false, inBlockComment = false;
   let escape = false;
-  let braceDepth = 0; 
+  let braceDepth = 0;
 
   while (i < len) {
     const ch = src[i];
@@ -101,7 +101,6 @@ function removeCommentsFromJS(src) {
       out += '${';
       braceDepth = 1;
       i += 2;
-      
       while (i < len && braceDepth > 0) {
         const c = src[i];
         if (c === '{') braceDepth++;
