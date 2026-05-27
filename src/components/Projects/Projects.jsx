@@ -23,7 +23,7 @@ const projects = [
 
 function Projects () {
     return (
-        <section  className="projects">
+        <section id="projects" className="projects">
             <div className="container">
 
                 <motion.div
@@ -77,6 +77,9 @@ function Projects () {
                                  href={project.codeUrl}
                                  target="_blank" 
                                  rel="noopener noreferrer"
+                                 style={{
+                                    marginLeft:"20px"
+                                 }}
                                  >
                                     Ver Codigo
                                 </a>

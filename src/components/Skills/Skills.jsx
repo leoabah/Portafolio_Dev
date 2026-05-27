@@ -35,7 +35,7 @@ function Skills () {
     };
 
   return (
-    <section className='skills'>
+    <section id="skills" className='skills'>
         <div className='container'>
 
             <montion.div
