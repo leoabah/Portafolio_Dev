@@ -25,9 +25,9 @@ function Experience() {
                 <motion.div
                 clasName="sectionTiltle"
                 initial={{opacity:0,y:40}}
-                wileInView={{opacity:1,y:0}}
+                whileInView={{opacity:1,y:0}}
                 transition={{duration:0.6}}
-                vieport={{once:true}}
+                viewport={{once:true}}
                 >
                    <p>Experiencia</p>
 
@@ -42,12 +42,12 @@ function Experience() {
                         key={index}
                         className="timeline__item"
                         initial={{opacity:0,y:40}}
-                        wileInView={{opacity:1,y:0}}
+                        whileInView={{opacity:1,y:0}}
                         transition={{delay:index * 0.15}}
-                        vieport={{once:true}}
+                        viewport={{once:true}}
                         >
-                            <div className="timeline__number">{step.number}
-                                
+                            <div className="timeline__number">
+                                {step.number}              
                             </div>
                             <div className="timeline__content">
                                 <h3>{step.title}</h3>

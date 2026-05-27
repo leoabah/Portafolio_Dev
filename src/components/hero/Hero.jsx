@@ -1,9 +1,13 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { FaCode } from 'react-icons/fa'
+
+const imgSrc = <FaCode style={{ color: "#7c3aed", width: 200, height: 200 }} />
 
 function Hero() {
+    
   return (
-    <section className="hero">
+    <section  id="Home" className="hero">
 
        <div className='container hero__content'>
 
@@ -37,7 +41,7 @@ function Hero() {
 
             <div className='hero__card'>
                 <div className="icon">
-                    <img src="@/assets/icons/heroIcon.png" alt="icono de codigo dev" />
+                    {imgSrc}
                 </div>
             </div>
         </div>

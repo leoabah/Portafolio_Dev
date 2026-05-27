@@ -15,7 +15,9 @@
         left: 40px;
         width: 2px;
         height: 100%;
-        background:linear-gradient(to bottom,
+        background:
+        linear-gradient(
+         to bottom,
          transparent,
          $primary,
          transparent);
@@ -47,6 +49,10 @@
         backdrop-filter: blur(10px);
         border: 2px solid #ffffff4d; 
         box-shadow: 0 0 30px #ffffff33;
+        &:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 0 40px #ffffffc2;
+        }
     }
 
     .timeline__content{
@@ -61,6 +67,7 @@
         &:hover{
             transform: translateY(-8px);
             box-shadow: 0 0 40px #ffffff66;
+            
         }
         h3{
             font-size: 2rem;

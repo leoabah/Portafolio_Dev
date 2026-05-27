@@ -1,0 +1,111 @@
+@use "@/styles/base/variables" as *;
+
+.contact{
+  padding: 180px 0;
+  position : relative;
+}
+
+.contact__content{
+   text-align: center;
+   padding: 90px 60px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff4d;
+    border: 2px solid #ffffff4d;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 60px 
+    rgba(124, 58,237,.15);
+    z-index: 2;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(
+            circle,
+            rgba(124, 58,237,.25),
+            transparent 70%
+        );
+        top: -100px;
+        right: -100px;
+        filter: blur(40px);
+        border-radius: 50%;
+    }
+}
+
+.contact__subtitle{
+    color:$primary;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact__content h2{
+    font-size:
+    clamp(3rem, 6vw, 5rem);
+    line-height: 1;
+    margin-bottom: 30px;
+    
+}
+
+.contact__description{
+    max-width: 700px;
+    margin: 0 auto;
+    color:$textGray;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.contact__buttons{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn{
+    padding: 16px 34px;
+    border-radius: 999px;
+    font-weight: 600;
+    transition:.4s;
+    text-decoration: none;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.03);
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 25px rgba(124,58,237,.35);
+        color:$secondary;
+        
+    }
+}
+
+.primaryBtn{
+    background:linear-gradient ( 
+        135deg,
+        $primary,
+        $secondary
+    );
+        color:$text;
+}
+.secondaryBtn{
+    background: rgba(255,255,255,.04);
+   
+    color:$text;
+}
+
+@media(max-width:768px) {
+    .contact__content{
+        padding: 60px 30px;
+    }
+    .contact__content h2{
+        font-size: 2.5rem;
+    }
+    .contact__description{
+        font-size: 1rem;
+    }
+}

@@ -73,7 +73,6 @@
         .projectLink, .codeLink{
             cursor: pointer;
             text-decoration: none;
-            margin-right:  0 20px;
             display:inline-block;
             padding:14px 28px;
             border-radius: 999px;
@@ -87,9 +86,9 @@
             transition:.4s;
 
             &:hover{
-                
+                border: 2px solid $text;
                 box-shadow: 0 5px 15px rgba(0,0,0,.2);
-
+                transform: translateY(-5px);
             }
         }
         

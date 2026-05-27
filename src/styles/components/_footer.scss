@@ -1,0 +1,95 @@
+@use "@/styles/base/variables" as *;
+
+
+.footer{ 
+    padding: 80px 0 40px;
+    position : relative;
+    border-top:0cap1px solid rgba(255,255,255,0.6);
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer__branding{
+    max-width:500px;
+
+    h3{
+        font-size:2rem;
+        margin-bottom:15px;
+
+        span{
+            color: $primary;
+        }
+    }
+    p{
+        color: $textGray;
+        line-height: 1.7;
+    }
+}
+
+.footer__socials{
+    display: flex;
+    gap: 20px;
+
+    a{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:
+            rgba(255,255,255,0.4);
+        font-size: 1.3rem;
+        transition: 0.4s;
+
+        &:hover{
+            transform: translateY(-6px);
+            color: $primary;
+            box-shadow: 0 0 25px 
+            rgba(124,58,237,.35);
+
+        }
+    }
+}
+
+.scrollTop{
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 55px;
+    height: 55px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    color:$text;
+    font-size: 1.2rem;
+    box-shadow:
+     0 0 30px rgba(124,58,237,.35);
+     transition: 0.4s;
+     z-index: 999;
+
+     &:hover{
+        transform: translateY(-5px);
+     }
+}
+
+@media (max-width: 768px){
+    .footer .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__socials{
+        justify-content: center;
+    }
+    .scrollTop{
+        right: 2rem;
+        bottom: 2rem;
+        background: transparent;
+    }
+}
