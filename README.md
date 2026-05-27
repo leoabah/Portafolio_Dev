@@ -1,6 +1,6 @@
 # Portafolio Dev 🚀
 
-Portfolio profesional desarrollado con **React + Vite**, diseñado para mostrar proyectos, habilidades y experiencia como Frontend Developer Jr.
+Portafolio profesional desarrollado con **React + Vite**, diseñado para mostrar proyectos, habilidades y experiencia como Frontend Developer Jr.
 Incluye diseño moderno tipo glassmorphism, animaciones fluidas y estructura responsive optimizada para diferentes dispositivos.
 
 ---
