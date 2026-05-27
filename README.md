@@ -7,7 +7,7 @@ Incluye diseño moderno tipo glassmorphism, animaciones fluidas y estructura res
 
 ## 🌐 Demo
 
-[Portafolio Dev Live Demo](https://leoabah.github.io/Portafolio_Dev/?utm_source=chatgpt.com)
+[Portafolio Dev Live Demo](https://leoabah.github.io/Portafolio_Dev/)
 
 ---
 
@@ -116,6 +116,6 @@ Frontend Developer Jr apasionado por crear experiencias web modernas, responsiva
 
 ## 📬 Contacto
 
-* GitHub: [@leoabah](https://github.com/leoabah?utm_source=chatgpt.com)
-* LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/flabah/?utm_source=chatgpt.com)
+* GitHub: [@leoabah](https://github.com/leoabah)
+* LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/flabah/)
 * Email: [leoabah@gmail.com](mailto:leoabah@gmail.com)
