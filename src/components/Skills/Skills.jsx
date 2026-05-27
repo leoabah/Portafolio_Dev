@@ -14,14 +14,13 @@ import{
 
 import { SiVite } from 'react-icons/si';
 import { motion } from 'framer-motion';
-import { html } from 'framer-motion/client';
 
 const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ] 
 
 function Skills () {
 
     const icons = {
-        "HTML": <Fahtml5 />,
+        "HTML": <FaHtml5 />,
         "CSS": <FaCss3Alt />,
         "JavaScript": <FaJs />,
         "React": <FaReact />,
@@ -31,14 +30,15 @@ function Skills () {
         "Bootstrap": <FaBootstrap />,
         "Sass": <FaSass />,
         "npm": <FaNpm />,
-        "vite": <Sivite />
+        "vite": <SiVite />
     };
 
   return (
     <section id="skills" className='skills'>
+
         <div className='container'>
 
-            <montion.div
+            <motion.div
             
                initial={{ opacity:0, y:50 }}
                whileInView={{ opacity:1 ,y:0 }}
@@ -50,7 +50,7 @@ function Skills () {
             <p>Habilidades</p>
             <h2>Tecnologias y herramientras</h2>
 
-            </montion.div>
+            </motion.div>
 
         <div className="skills__grid">
             {skills.map((skill,index) =>(
@@ -59,12 +59,13 @@ function Skills () {
                   initial={{ opacity:0, y:30}}
                   transition={{ delay: index *.1}}
                   viewport={{once:true}}
+                  whileInView={{ opacity:1, y:0}}
                   className="skillCard"
                   >
                     <div className="icon">
                         {icons[skill]}
                     </div>
-                    <h3>{Skills}</h3>
+                    <h3>{skill}</h3>
 
                   </motion.div>
             ))}

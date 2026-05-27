@@ -29,7 +29,6 @@ function Experience() {
                 transition={{duration:0.6}}
                 viewport={{once:true}}
                 >
-                   <p>Experiencia</p>
 
                    <h2>
                     Mi proceso de 
