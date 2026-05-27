@@ -1,75 +1,136 @@
-# Portafolio
+# Portafolio Dev 🚀
 
-Pequeño portafolio personal construido con React y Vite.
+Portfolio profesional desarrollado con **React + Vite**, diseñado para mostrar proyectos, habilidades y experiencia como Frontend Developer Jr.
+Incluye diseño moderno tipo glassmorphism, animaciones fluidas y estructura responsive optimizada para diferentes dispositivos.
 
-**Descripción**: Sitio estático/SPA para mostrar proyectos, experiencia y contacto.
+---
 
-**Tecnologías**
-- React
-- Vite
-- Sass
-- framer-motion
-- react-icons
+## 🌐 Demo
 
-**Requisitos**
-- Node.js 18+ y npm o yarn
+[Portafolio Dev Live Demo](https://leoabah.github.io/Portafolio_Dev/?utm_source=chatgpt.com)
 
-**Instalación**
-Ejecuta en la raíz del proyecto:
+---
 
-`npm install`
+## ✨ Características
 
-**Desarrollo**
+* ⚡ Desarrollado con React + Vite
+* 🎨 Diseño moderno UI/UX
+* 🌌 Efecto glassmorphism
+* 📱 Responsive Design
+* 🎞️ Animaciones con Framer Motion
+* 🧩 Arquitectura por componentes
+* 🎯 Navegación smooth scroll
+* 🌐 Deploy en GitHub Pages
+* 💻 Código limpio y escalable
 
-`npm run dev`
+---
 
-Abre `http://localhost:5173` (o la URL que muestre Vite).
+## 🛠️ Tecnologías utilizadas
 
-**Construir para producción**
+* React
+* Vite
+* Sass (SCSS)
+* Framer Motion
+* React Icons
+* Git & GitHub
 
-`npm run build`
+---
 
-**Previsualizar build**
+## 📂 Estructura del proyecto
 
-`npm run preview`
+```bash
+src/
+│
+├── assets/
+├── components/
+│   ├── Background/
+│   ├── Contact/
+│   ├── Experience/
+│   ├── Footer/
+│   ├── Hero/
+│   ├── Navbar/
+│   ├── Projects/
+│   └── Skills/
+│
+├── styles/
+│   ├── base/
+│   └── components/
+│
+├── App.jsx
+└── main.jsx
+```
 
-**Lint**
+---
 
-`npm run lint`
+## 🚀 Instalación local
 
-**Estructura principal**
-- [src](src) — código fuente
-- [src/App.jsx](src/App.jsx) — entrada de la app
-- [src/main.jsx](src/main.jsx) — mount y bootstrap
-- [src/components/hero/Hero.jsx](src/components/hero/Hero.jsx) — componente Hero
-- [src/styles](src/styles) — estilos Sass
+Clonar repositorio:
 
-**Scripts útiles**
-- `dev` — Ejecuta Vite en modo desarrollo
-- `build` — Genera la carpeta de producción
-- `preview` — Sirve la build localmente
-- `lint` — Ejecuta ESLint
+```bash
+git clone https://github.com/leoabah/Portafolio_Dev.git
+```
 
-**Notas**
-- Hay un script de utilidad `scripts/remove-comments.cjs` usado para eliminar comentarios del proyecto (usado previamente).
-- Antes de abrir un PR, revisa la rama `remove-comments-backup` si necesitas recuperar comentarios eliminados.
+Entrar al proyecto:
 
-**Licencia**
+```bash
+cd Portafolio_Dev
+```
 
-MIT
-# React + Vite
+Instalar dependencias:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```bash
+npm install
+```
 
-Currently, two official plugins are available:
+Iniciar servidor:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm run dev
+```
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Build producción
 
-## Expanding the ESLint configuration
+```bash
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Deploy GitHub Pages
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📸 Preview
+
+
+
+![Image](<img width="1425" height="690" alt="Captura de pantalla 2026-05-27 a la(s) 7 52 08 p  m" src="https://github.com/user-attachments/assets/9bc46d84-c3cb-4275-8ad5-90f29fc6a31a" />
+)
+
+![Image](<img width="1344" height="699" alt="Captura de pantalla 2026-05-27 a la(s) 7 51 49 p  m" src="https://github.com/user-attachments/assets/808161aa-b73b-4c07-8173-e315dc76be73" />
+)
+
+![Image](<img width="1440" height="779" alt="Captura de pantalla 2026-05-27 a la(s) 7 51 25 p  m" src="https://github.com/user-attachments/assets/9b8fdf82-1e23-4b29-ada2-6122523544ac" />)
+
+
+---
+
+## 👨‍💻 Autor
+
+### [Leo Abah GitHub](https://github.com/leoabah?utm_source=chatgpt.com)
+
+Frontend Developer Jr apasionado por crear experiencias web modernas, responsivas y funcionales.
+
+---
+
+## 📬 Contacto
+
+* GitHub: [@leoabah](https://github.com/leoabah?utm_source=chatgpt.com)
+* LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/flabah/?utm_source=chatgpt.com)
+* Email: [leoabah@gmail.com](mailto:leoabah@gmail.com)
