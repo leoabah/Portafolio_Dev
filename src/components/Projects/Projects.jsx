@@ -20,7 +20,6 @@ const projects = [
         codeUrl: "https://github.com/leoabah/E-comerce.git"
     }
 ]
-
 function Projects () {
     return (
         <section id="projects" className="projects">
