@@ -9,7 +9,7 @@ const projects = [
         title:"E-comerce App",
         image: Projecto2,
         description: "Aplicación ecommerce moderna desarrollada con React Vite, diseño responsive y enfoque UI moderno, carrito de compras funcional y animaciones suaves.",
-        url: "https://github.com/leoabah/E-comerce-React-App",
+        url: "https://github.com/leoabah/E-comerce_App",
         codeUrl: "https://github.com/leoabah/E-comerce-React-App.git"
     },
     {
