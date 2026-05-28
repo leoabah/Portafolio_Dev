@@ -32,7 +32,7 @@ function Experience() {
 
                    <h2>
                     Mi proceso de 
-                    <span>desarollo</span>
+                    <span> desarollo</span>
                    </h2>
                 </motion.div>
                 <div className="timeline">
