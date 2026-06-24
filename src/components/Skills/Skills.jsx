@@ -9,15 +9,18 @@ import{
     FaGithub,
     FaBootstrap,
     FaSass,
-    FaNpm, 
-    SiMongodb,
-    SiExpressdotcom,
-    SiRender,
-    RxVercelLogo,
-    TbApi
+    FaNpm 
 } from "react-icons/fa";
 
-import { SiVite } from 'react-icons/si';
+import { 
+    SiVite,
+    SiMongodb,
+    SiExpressdotcom,
+    SiRender
+} from 'react-icons/si';
+
+import { RxVercelLogo } from "react-icons/rx";
+import  { TbApi } from "react-icons/tb";
 import { motion } from 'framer-motion';
 
 const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ," Api Rest","Vercel", "Render", "MongoDB", "Express"  ] 
