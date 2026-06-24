@@ -1,20 +1,27 @@
 import { motion } from "framer-motion";
 import Projecto1 from "@/assets/images/Projecto1.png";
 import Projecto2 from "@/assets/images/Projecto2.png";
-
+import Projecto3 from "@/assets/images/Projecto3.png"
 
 
 const projects = [
     {
+        title:"E-comerce App  Premium",
+        image: Projecto1,
+        description: "Aplicación ecommerce moderna desarrollada con React Vite, diseño responsive y enfoque UI moderno, carrito de compras funcional y animaciones suaves.",
+        url: "https://e-comerce-app-swart.vercel.app/",
+        codeUrl: "https://github.com/leoabah/E-comerce_App"
+    },
+    {
         title:"E-comerce App",
         image: Projecto2,
         description: "Aplicación ecommerce moderna desarrollada con React Vite, diseño responsive y enfoque UI moderno, carrito de compras funcional y animaciones suaves.",
-        url: "https://leoabah.github.io/E-comerce_App/",
-        codeUrl: "https://github.com/leoabah/E-comerce-React-App.git"
+        url: "https://integrador-2-nine.vercel.app/",
+        codeUrl: "https://github.com/leoabah/integrador-2.git"
     },
     {
         title:"E-comerce",
-        image: Projecto1,
+        image: Projecto3,
         description: "Aplicación ecommerce moderna desarrollada con Html , Sass y JavaScript, diseño responsive y enfoque UI moderno.",
         url: "https://leoabah.github.io/E-comerce/",
         codeUrl: "https://github.com/leoabah/E-comerce.git"

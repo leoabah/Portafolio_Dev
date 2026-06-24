@@ -102,6 +102,9 @@
         height: 220px;
     }
     .projectInfo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         h3{
             font-size:1.5rem;}
     }

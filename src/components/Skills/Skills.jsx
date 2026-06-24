@@ -9,13 +9,18 @@ import{
     FaGithub,
     FaBootstrap,
     FaSass,
-    FaNpm 
+    FaNpm, 
+    SiMongodb,
+    SiExpressdotcom,
+    SiRender,
+    RxVercelLogo,
+    TbApi
 } from "react-icons/fa";
 
 import { SiVite } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
-const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ] 
+const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ," Api Rest","Vercel", "Render", "MongoDB", "Express"  ] 
 
 function Skills () {
 
@@ -30,7 +35,12 @@ function Skills () {
         "Bootstrap": <FaBootstrap />,
         "Sass": <FaSass />,
         "npm": <FaNpm />,
-        "vite": <SiVite />
+        "vite": <SiVite />,
+        "MongoDB":<SiMongodb />,
+        "Express":<SiExpressdotcom />,
+        "Render":<SiRender />,
+        "Vercell":<RxVercelLogo />,
+        "Api Rest":<TbApi />
     };
 
   return (
