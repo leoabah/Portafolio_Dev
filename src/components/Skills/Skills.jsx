@@ -23,7 +23,7 @@ import { RxVercelLogo } from "react-icons/rx";
 import  { TbApi } from "react-icons/tb";
 import { motion } from 'framer-motion';
 
-const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ," Api Rest","Vercel", "Render", "MongoDB", "Express"  ] 
+const skills = [ "HTML" , "CSS" , "JavaScript" , "React" , "Node.js" , "Git" , "GitHub" , "Bootstrap" , "Sass" , "npm", "vite" ,"Api","Vercel", "Render", "MongoDB", "Express"  ] 
 
 function Skills () {
 
@@ -42,8 +42,8 @@ function Skills () {
         "MongoDB":<SiMongodb />,
         "Express":<SiExpressdotcom />,
         "Render":<SiRender />,
-        "Vercell":<RxVercelLogo />,
-        "Api Rest":<TbApi />
+        "Vercel":<RxVercelLogo />,
+        "Api":<TbApi />
     };
 
   return (
