@@ -44,7 +44,7 @@ const  steps =[
     {
         number:"09",
         title:"Manejo de bases de datos No SQL",
-        text:"Gestión eficiente de datos no relacionales utilizando tecnologías como MongoDB o DynamoDB."
+        text:"Gestión eficiente de datos no relacionales utilizando tecnologías como MongoDB."
     },
     {
         number:"10",
